@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:wght@500&display=swap&effect=anaglyph');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    color: ghostwhite;
+}
+
+a{
+    text-decoration: none;
+}
+
+td{
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li a{
+    color: ghostwhite;
+    position: relative;
+    padding: 5px 0;
+
+}
+
+nav ul li a:hover{
+    color: #ECEC1B;
+}
+
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #ECEC1B;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+body {
+    background-color: black ;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: ghostwhite;
+    text-align: center;
+    text-decoration-color: ghostwhite;
+}
+h2 {
+  text-decoration-line: underline;
+}
+
+.info {
+  font-family: "Times New Roman", Times, serif;
+  color: ghostwhite;
+  text-align: center;
+  text-decoration-color: ghostwhite;
+}
+
+.ResumePage h2{
+    color: ghostwhite;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+pre {
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+.p1 {
+    margin-left: 500px;
+}
+
+.tdLeft{
+  width: 50%
+  text-align: left;
+}
+.tdRight{
+  width: 50%
+  text-align: right;
+}
+
+
+hr{
+  display: flex;
+  justify-content: center;
+  border-style: none;
+  border-top-style: solid;
+  border-top-color: ghostwhite;
+  border-width: 3px;
+  width: 100%;
+  effect: anaglyph;
+}
+
+.center{
+  display: flex;
+  justify-content: list_left;
+}
+
+.list_left{
+  display: inline-block;
+  text-align: left;
+}
+.list_right{
+  display: inline-block;
+  text-align: right;
+}
